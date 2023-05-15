@@ -11,6 +11,7 @@
   Shirts: Color, size, design, price
 
 */
+#pragma pack(1)
 struct store
 {
     double price;     // 8 bytes
