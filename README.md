@@ -2,37 +2,65 @@
 
 ## Mục lục
 - [Giới thiệu](#gioi-thieu)
+  - [Mục 1](#muc-1)
+  - [Mục 2](#muc-2)
 - [Cài đặt](#cai-dat)
+  - [Bước 1](#buoc-1)
+  - [Bước 2](#buoc-2)
 - [Sử dụng](#su-dung)
+  - [Cách 1](#cach-1)
+  - [Cách 2](#cach-2)
 - [Đóng góp](#dong-gop)
+  - [Yêu cầu](#yeu-cau)
+  - [Quy trình đóng góp](#quy-trinh-dong-gop)
 
 ## <a name="gioi-thieu"></a>Giới thiệu
 
-Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README.
+Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
+
+### <a name="muc-1"></a>Mục 1
+
+Nội dung mục 1...
+
+### <a name="muc-2"></a>Mục 2
+
+Nội dung mục 2...
 
 ## <a name="cai-dat"></a>Cài đặt
 
-Dưới đây là các bước để cài đặt dự án:
+Dưới đây là các bước để cài đặt dự án. Bạn có thể tạo các mục con tương tự như trong phần Giới thiệu:
 
-1. Clone repository về máy của bạn.
-2. Chạy lệnh `npm install` để cài đặt các phụ thuộc.
-3. Chạy lệnh `npm start` để khởi chạy ứng dụng.
+### <a name="buoc-1"></a>Bước 1
+
+Nội dung bước 1...
+
+### <a name="buoc-2"></a>Bước 2
+
+Nội dung bước 2...
 
 ## <a name="su-dung"></a>Sử dụng
 
-Đây là cách sử dụng dự án:
+Đây là cách sử dụng dự án. Cũng tương tự như các phần trước, bạn có thể tạo các mục con cho phần này:
 
-1. Chạy ứng dụng bằng lệnh `npm start`.
-2. Mở trình duyệt và truy cập `http://localhost:3000` để xem ứng dụng.
+### <a name="cach-1"></a>Cách 1
+
+Nội dung cách 1...
+
+### <a name="cach-2"></a>Cách 2
+
+Nội dung cách 2...
 
 ## <a name="dong-gop"></a>Đóng góp
 
-Nếu bạn muốn đóng góp vào dự án, hãy làm theo các bước sau:
+Nếu bạn muốn đóng góp vào dự án, hãy làm theo các bước sau. Bạn cũng có thể tạo các mục con như đã thực hiện trong các phần trước:
 
-1. Fork repository này.
-2. Tạo một nhánh mới.
-3. Thực hiện các thay đổi.
-4. Gửi yêu cầu Pull (Pull Request) từ nhánh của bạn.
+### <a name="yeu-cau"></a>Yêu cầu
+
+Nội dung yêu cầu...
+
+### <a name="quy-trinh-dong-gop"></a>Quy trình đóng góp
+
+Nội dung quy trình đóng góp...
 
 # Struct-Union
 # Union chỉ được sử dụng vùng nhớ lưu 1 giá trị  tại 1 thời điểm 
