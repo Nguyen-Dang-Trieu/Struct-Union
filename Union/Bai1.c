@@ -34,7 +34,7 @@ int main()
     book.price = 10;
     
     
-    printf("\nSize of struct store: %d bytes\n",sizeof(struct store));
+    printf("\nSize of struct store: %d bytes\n",sizeof(struct store));  // Output: Size of struct store: 32 bytes
 
     //Hien thi ra man hinh
     printf("\n-Title: %s\n",book.title);
