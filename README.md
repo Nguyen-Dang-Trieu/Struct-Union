@@ -1,4 +1,4 @@
-# Tên Dự án
+# Struct - Union
 
 ## Mục lục
 - [Giới thiệu](#gioi-thieu)
@@ -15,54 +15,42 @@
   - [Quy trình đóng góp](#quy-trinh-dong-gop)
 
 ## <a name="gioi-thieu"></a>Giới thiệu
-
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
 ### <a name="muc-1"></a>Mục 1
-
 Nội dung mục 1...
 
 ### <a name="muc-2"></a>Mục 2
-
 Nội dung mục 2...
 
 ## <a name="cai-dat"></a>Cài đặt
-
 Dưới đây là các bước để cài đặt dự án. Bạn có thể tạo các mục con tương tự như trong phần Giới thiệu:
 
 ### <a name="buoc-1"></a>Bước 1
-
 Nội dung bước 1...
 
 ### <a name="buoc-2"></a>Bước 2
-
 Nội dung bước 2...
 
 ## <a name="su-dung"></a>Sử dụng
-
 Đây là cách sử dụng dự án. Cũng tương tự như các phần trước, bạn có thể tạo các mục con cho phần này:
 
 ### <a name="cach-1"></a>Cách 1
-
 Nội dung cách 1...
 
 ### <a name="cach-2"></a>Cách 2
-
 Nội dung cách 2...
 
 ## <a name="dong-gop"></a>Đóng góp
-
 Nếu bạn muốn đóng góp vào dự án, hãy làm theo các bước sau. Bạn cũng có thể tạo các mục con như đã thực hiện trong các phần trước:
 
 ### <a name="yeu-cau"></a>Yêu cầu
-
 Nội dung yêu cầu...
 
 ### <a name="quy-trinh-dong-gop"></a>Quy trình đóng góp
-
 Nội dung quy trình đóng góp...
 
-# Struct-Union
+
 # Union chỉ được sử dụng vùng nhớ lưu 1 giá trị  tại 1 thời điểm 
 Ví dụ:
 Nếu ta khai báo 1 kiểu "union GPIO"
