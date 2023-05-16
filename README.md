@@ -2,7 +2,7 @@
 
 ## Mục lục
 - [Introduction](#Introduction)
-  - [Struct](#Mục-1)
+  - [Struct](#Muc-1)
   - [Union](#Muc-2)
 - [How to declare and use them in C](#cai-dat)
   - [Struct](#buoc-1)
@@ -18,7 +18,7 @@
 ## <a name="Introduction"></a>Giới thiệu
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
-### <a name="Mục-1"></a>Mục 1
+### <a name="Muc-1"></a>Mục 1
 Nội dung mục 1...
 
 ### <a name="Muc-2"></a>Mục 2
