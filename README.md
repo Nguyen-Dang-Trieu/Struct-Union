@@ -2,7 +2,7 @@
 
 ## Contents
 - [Introduction](#Introduction)
-  - [Struct](#Struct-Intr)
+  - [Struct](#Struct-1)
   - [Union](#Union)
 - [How to declare and use them in C](#Declare)
   - [How to Declare a Struct?](#Struct-D)
@@ -32,7 +32,7 @@ Hướng dẫn sử dụng...
 ## <a name="Introduction"></a>Introduction
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
-### <a name="Struct-Intro"></a> Struct
+### <a name="Struct-1"></a> Struct
 Nội dung mục 1...
 
 ### <a name="Union"></a> Union
