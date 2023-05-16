@@ -41,19 +41,21 @@ union Unionname {
 ~~~
 -For example,
 ~~~cpp
+#include<stdio.h>
+
 union Hardware
 {
-	float	_cpu;
-	short	_ram;
-	int	_ssd;
+   float _cpu;
+   short _ram;
+   int	 _ssd;
 };
 int main()
 {
-	Hardware latop;
-	h._cpu = 3.2f;
-	h._ram = 256;
-	h._ssd = 1024;
-	return 0;
+   Hardware latop;
+   h._cpu = 3.2f;
+   h._ram = 256;
+   h._ssd = 1024;
+   return 0;
 }
 ~~~
 
