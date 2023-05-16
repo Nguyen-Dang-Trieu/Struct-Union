@@ -2,11 +2,11 @@
 
 ## Contents
 - [Introduction](#Introduction)
-  - [Struct](#Struct)
-  - [Union](#Union)
-- [How to declare and use them in C](#declare)
-  - [Struct](#buoc-1)
-  - [Union](#buoc-2)
+  - [Struct](#Struct-I)
+  - [Union](#Union-I)
+- [How to declare and use them in C](#Declare)
+  - [How to Declare a Struct?](#Struct-D)
+  - [How to Declare a Union?](#Union-D)
 - [How to access members of Struct - Union](#su-dung)
   - [Struct](#cach-1)
   - [Union](#cach-2)
@@ -18,19 +18,19 @@
 ## <a name="Introduction"></a>Introduction
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
-### <a name="Struct"></a>Struct
+### <a name="Struct-I"></a>Struct
 Nội dung mục 1...
 
-### <a name="Union"></a>Union
+### <a name="Union-I"></a>Union
 Nội dung mục 2...
 
-## <a name="declare"></a>How to declare and use them in C
+## <a name="Declare"></a>How to declare and use them in C
 Dưới đây là các bước để cài đặt dự án. Bạn có thể tạo các mục con tương tự như trong phần Giới thiệu:
 
-### <a name="buoc-1"></a>Bước 1
+### <a name="Struct-D"></a>How to Declare a Struct?
 Nội dung bước 1...
 
-### <a name="buoc-2"></a>Bước 2
+### <a name="Union-D"></a>How to Declare a Union?
 Nội dung bước 2...
 
 ## <a name="su-dung"></a>Sử dụng
