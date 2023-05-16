@@ -4,9 +4,9 @@
 - [Introduction](#Introduction)
   - [Struct](#struct)
   - [Union](#union)
-- [How to declare and use them in C](#how-to-declare-and-use-them-in-c)
-  - [How to Declare a Struct ?](#how-to-declare-a-struct-?)
-  - [How to Declare a Union ?](#how-to-declare-a-union-?)
+- [How to declare and use them in C ?](#how-to-declare-and-use-them-in-c-?)
+  - [Declare a Struct ?](#declare-a-struct-?)
+  - [Declare a Union ?](#declare-a-union-?)
 - [How to access members of Struct - Union](#su-dung)
   - [Struct](#cach-1)
   - [Union](#cach-2)
@@ -23,13 +23,13 @@ Nội dung mục 1...
 ### <a name="union"></a>Union
 Nội dung mục 2...
 
-## <a name="how-to-declare-and-use-them-in-c"></a>How to declare and use them in C
+## <a name="how-to-declare-and-use-them-in-c-?"></a>How to declare and use them in C ?
 Dưới đây là các bước để cài đặt dự án. Bạn có thể tạo các mục con tương tự như trong phần Giới thiệu:
 
-### <a name="how-to-declare-a-struct-?"></a>How to Declare a Struct?
+### <a name="declare-a-struct-?"></a>Declare a Struct ?
 Nội dung bước 1...
 
-### <a name="how-to-declare-a-union-?"></a>How to Declare a Union?
+### <a name="declare-a-union-?"></a>Declare a Union ?
 Nội dung bước 2...
 
 ## <a name="su-dung"></a>Sử dụng
