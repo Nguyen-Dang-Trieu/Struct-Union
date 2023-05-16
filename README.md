@@ -17,7 +17,7 @@
 ## <a name="Introduction"></a>Introduction
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
-### <a name="Struct-1"></a>Struct
+### Struct<a name="Struct-1"></a>
 Nội dung mục 1...
 
 ### <a name="Union"></a>Union
