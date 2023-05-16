@@ -2,7 +2,7 @@
 
 ## Contents
 - [Introduction](#Introduction)
-  - [Struct](#Struct-1)
+  - [Struct-1](#Struct-1)
   - [Union](#Union)
 - [How to declare and use them in C](#Declare)
   - [How to Declare a Struct?](#Struct-D)
