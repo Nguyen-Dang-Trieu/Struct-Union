@@ -1,4 +1,4 @@
-# Struct - Union
+# Struct - UnionCancel changes
 
 ## Mục lục
 - [Introduction](#Introduction)
