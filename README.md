@@ -30,7 +30,32 @@ Dưới đây là các bước để cài đặt dự án. Bạn có thể tạo
 Nội dung bước 1...
 
 ### <a name="declare-a-union-?"></a>Declare a Union ?
-Nội dung bước 2...
+-The syntax is as follows
+~~~cpp
+union Unionname {
+   type1 variable1;
+   type2 variable2;
+   ...
+   type variable;
+}; 
+~~~
+-For example,
+~~~cpp
+union Hardware
+{
+	float	_cpu;
+	short	_ram;
+	int	_ssd;
+};
+int main()
+{
+	Hardware latop;
+	h._cpu = 3.2f;
+	h._ram = 256;
+	h._ssd = 1024;
+	return 0;
+}
+~~~
 
 ## <a name="su-dung"></a>Sử dụng
 Đây là cách sử dụng dự án. Cũng tương tự như các phần trước, bạn có thể tạo các mục con cho phần này:
