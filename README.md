@@ -15,7 +15,7 @@
   - [Union](#quy-trinh-dong-gop)
 
 
-## <a name="Giới-thiệu"></a>Giới thiệu
+## <a name="Giới-thiệu"></a>Introduction
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
 ### <a name="Muc-1"></a>Mục 1
