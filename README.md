@@ -4,7 +4,7 @@
 - [Introduction](#Introduction)
   - [Struct](#Struct)
   - [Union](#Union)
-- [How to declare and use them in C](#cai-dat)
+- [How to declare and use them in C](#declare)
   - [Struct](#buoc-1)
   - [Union](#buoc-2)
 - [How to access members of Struct - Union](#su-dung)
@@ -24,7 +24,7 @@ Nội dung mục 1...
 ### <a name="Union"></a>Union
 Nội dung mục 2...
 
-## <a name="cai-dat"></a>Cài đặt
+## <a name="declare"></a>How to declare and use them in C
 Dưới đây là các bước để cài đặt dự án. Bạn có thể tạo các mục con tương tự như trong phần Giới thiệu:
 
 ### <a name="buoc-1"></a>Bước 1
