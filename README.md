@@ -2,7 +2,7 @@
 
 ## Contents
 - [Introduction](#Introduction)
-  - [Struct](Struct)
+  - [Struct](#Struct)
   - [Union](#Union)
 - [How to declare and use them in C](#cai-dat)
   - [Struct](#buoc-1)
