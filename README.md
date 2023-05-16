@@ -17,10 +17,10 @@
 ## <a name="Introduction"></a>Introduction
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
-### <a name="Struct"></a> Struct
+### <a name="Struct"></a>Struct
 Nội dung mục 1...
 
-### <a name="Union"></a> Union
+### <a name="Union"></a>Union
 Nội dung mục 2...
 
 ## <a name="Declare"></a>How to declare and use them in C
