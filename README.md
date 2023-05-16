@@ -1,4 +1,4 @@
-# Struct - UnionCancel changes
+# Struct - Union
 
 ## Mục lục
 - [Introduction](#Introduction)
@@ -17,10 +17,10 @@
 ## <a name="Introduction"></a>Giới thiệu
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
-### <a name="Struct-I"></a>Mục 1
+### <a name="Muc-1"></a>Mục 1
 Nội dung mục 1...
 
-### <a name="Union-I"></a>Mục 2
+### <a name="Muc-2"></a>Mục 2
 Nội dung mục 2...
 
 ## <a name="cai-dat"></a>Cài đặt
