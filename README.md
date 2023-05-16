@@ -1,26 +1,26 @@
 # Struct - Union
 
 ## Mục lục
-- [Giới thiệu](#gioi-thieu)
-  - [Mục 1](#muc-1)
-  - [Mục 2](#muc-2)
-- [Cài đặt](#cai-dat)
-  - [Bước 1](#buoc-1)
-  - [Bước 2](#buoc-2)
-- [Sử dụng](#su-dung)
-  - [Cách 1](#cach-1)
-  - [Cách 2](#cach-2)
-- [Đóng góp](#dong-gop)
-  - [Yêu cầu](#yeu-cau)
-  - [Quy trình đóng góp](#quy-trinh-dong-gop)
+- [Introduction](#gioi-thieu)
+  - [Struct](#Struct)
+  - [Union](#Union)
+- [How to declare and use them in C](#cai-dat)
+  - [Struct](#buoc-1)
+  - [Union](#buoc-2)
+- [How to access members of Struct - Union](#su-dung)
+  - [Struct](#cach-1)
+  - [Union](#cach-2)
+- [Examples and applications of Struct - Union](#dong-gop)
+  - [Struct](#yeu-cau)
+  - [Union](#quy-trinh-dong-gop)
 
-## <a name="gioi-thieu"></a>Giới thiệu
+## <a name="Introduction"></a>Giới thiệu
 Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
 
-### <a name="muc-1"></a>Mục 1
+### <a name="Struct"></a>Mục 1
 Nội dung mục 1...
 
-### <a name="muc-2"></a>Mục 2
+### <a name="Union"></a>Mục 2
 Nội dung mục 2...
 
 ## <a name="cai-dat"></a>Cài đặt
