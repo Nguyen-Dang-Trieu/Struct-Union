@@ -2,8 +2,8 @@
 
 ## Mục lục
 - [Introduction](#Introduction)
-  - [Struct](#Struct-I)
-  - [Union](#Union-I)
+  - [Struct](#Muc-1)
+  - [Union](#Muc-2)
 - [How to declare and use them in C](#cai-dat)
   - [Struct](#buoc-1)
   - [Union](#buoc-2)
