@@ -3,7 +3,7 @@
 ## Contents
 - [Introduction](#Introduction)
   - [Struct](#STRUCT)
-  - [Union](#Union)
+  - [Union](#union)
 - [How to declare and use them in C](#Declare)
   - [How to Declare a Struct?](#Struct-D)
   - [How to Declare a Union?](#Union-D)
