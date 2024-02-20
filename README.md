@@ -81,8 +81,9 @@ Nội dung quy trình đóng góp...
 - Architecture of a computer processor is such a way that it can read 1 word from memory at a time.
 - 1 word is equal to 4 bytes for 32 bit processor and 8 bytes for 64 bit processor. So, 32 bit processor always reads 4 bytes at a time and 64 bit processor always reads 8 bytes at a time => *This concept is very useful to increase the processor speed.*
 
- **Giả sử 2 ví dụ bên dưới sử dụng `prossesor là 32 bit`** 
-  `Ví dụ 1:`
+ **Giả sử 2 ví dụ bên dưới sử dụng `prossesor là 32 bit`**.
+ 
+`Ví dụ 1:`
 ~~~cpp
 #include <stdio.h>
 
