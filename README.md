@@ -77,6 +77,9 @@ Nội dung yêu cầu...
 ### <a name="quy-trinh-dong-gop"></a>Quy trình đóng góp
 Nội dung quy trình đóng góp...
 
+# Problem: Structure Padding
+- Architecture of a computer processor is such a way that it can read 1 word from memory at a time.
+- 1 word is equal to 4 bytes for 32 bit processor and 8 bytes for 64 bit processor. So, 32 bit processor always reads 4 bytes at a time and 64 bit processor always reads 8 bytes at a time => *This concept is very useful to increase the processor speed.*
 
 # Union chỉ được sử dụng vùng nhớ lưu 1 giá trị  tại 1 thời điểm 
 Ví dụ:
