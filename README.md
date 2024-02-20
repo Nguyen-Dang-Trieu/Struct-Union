@@ -81,6 +81,11 @@ Nội dung quy trình đóng góp...
 - Architecture of a computer processor is such a way that it can read 1 word from memory at a time.
 - 1 word is equal to 4 bytes for 32 bit processor and 8 bytes for 64 bit processor. So, 32 bit processor always reads 4 bytes at a time and 64 bit processor always reads 8 bytes at a time => *This concept is very useful to increase the processor speed.*
 
+  `Ví dụ 1:`
+<p align="center">
+    <img src="./Images/Vi_du_1.png" width="300px" alt="">
+</p>
+
 # Union chỉ được sử dụng vùng nhớ lưu 1 giá trị  tại 1 thời điểm 
 Ví dụ:
 Nếu ta khai báo 1 kiểu "union GPIO"
