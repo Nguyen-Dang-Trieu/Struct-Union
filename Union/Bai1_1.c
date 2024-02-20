@@ -3,7 +3,7 @@
 #pragma pack(1)
 
 /* Khi bạn sử dụng #pragma pack(1), bạn đang yêu cầu trình biên dịch không thêm bất kỳ byte trống (padding) nào 
-vào giữa các thành phần của cấu trúc. Thay vào đó, các thành phần sẽ được căn chỉnh liền kề nhau, với kích thước
+vào giữa các thành phần của struct. Thay vào đó, các thành phần sẽ được căn chỉnh liền kề nhau, với kích thước
 tối thiểu cần thiết.
    Việc sử dụng #pragma pack(1) có thể giúp tối ưu kích thước bộ nhớ và đảm bảo tính nhất quán trong việc truy cập
 và trao đổi dữ liệu.
