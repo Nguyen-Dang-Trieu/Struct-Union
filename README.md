@@ -91,6 +91,13 @@ struct example_1 {
    char a; // 1byte
    char b; // 1byte
    int c; // 4bybtes
+};
+
+int main()
+{
+  struct example_1 variable_name;
+   printf("%d",sizeof(variable_name));
+}
 ~~~
 <p align="center">
     <img src="./Images/Vi_du_1.png" width="300px" alt="">
