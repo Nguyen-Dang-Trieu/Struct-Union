@@ -2,6 +2,7 @@
 
 
 ## Declare a *Struct* ?
+Refrence: https://www.programiz.com/c-programming/c-structures
 - The syntax is as follows
 ~~~cpp
 union structureName {
