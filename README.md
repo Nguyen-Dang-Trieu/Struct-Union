@@ -105,7 +105,7 @@ int main()
 8
 ~~~
 <p align="center">
-    <img src="./Images/Vi_du_1.png" width="500px" alt="">
+    <img src="./Images/Vi_du_1.png" width="400px" alt="">
 </p>
 
 `Ví dụ 2:`
