@@ -1,36 +1,27 @@
 # Struct - Union
 
-## Contents
-- [Introduction](#Introduction)
-  - [Struct](#struct)
-  - [Union](#union)
-- [How to declare and use them in C ?](#how-to-declare-and-use-them-in-c-?)
-  - [Declare a Struct ?](#declare-a-struct-?)
-  - [Declare a Union ?](#declare-a-union-?)
-- [How to access members of Struct - Union](#su-dung)
-  - [Struct](#cach-1)
-  - [Union](#cach-2)
-- [Examples and applications of Struct - Union](#dong-gop)
-  - [Struct](#yeu-cau)
-  - [Union](#quy-trinh-dong-gop)
 
-## <a name="Introduction"></a>Introduction
-Đây là dự án mẫu để minh họa cách tạo mục lục trong tệp README. Dưới đây là các mục con trong phần Giới thiệu:
+## Declare a *Struct* ?
+- The syntax is as follows
+~~~cpp
+union structureName {
+   type1 variable1;
+   type2 variable2;
+   ...
+   type variable;
+}; 
+~~~
+- For example:
+~~~cpp
+struct Person {
+  char name[50];
+  int citNo;
+  float salary;
+};
+~~~
 
-### <a name="struct"></a>Struct
-Nội dung mục 1...
-
-### <a name="union"></a>Union
-Nội dung mục 2...
-
-## <a name="how-to-declare-and-use-them-in-c-?"></a>How to declare and use them in C ?
-Dưới đây là các bước để cài đặt dự án. Bạn có thể tạo các mục con tương tự như trong phần Giới thiệu:
-
-### <a name="declare-a-struct-?"></a>Declare a Struct ?
-Nội dung bước 1...
-
-### <a name="declare-a-union-?"></a>Declare a Union ?
--The syntax is as follows
+## Declare a *Union* ?
+- The syntax is as follows
 ~~~cpp
 union Unionname {
    type1 variable1;
@@ -39,7 +30,7 @@ union Unionname {
    type variable;
 }; 
 ~~~
--For example,
+- For example:
 ~~~cpp
 #include<stdio.h>
 
@@ -59,23 +50,6 @@ int main()
 }
 ~~~
 
-## <a name="su-dung"></a>Sử dụng
-Đây là cách sử dụng dự án. Cũng tương tự như các phần trước, bạn có thể tạo các mục con cho phần này:
-
-### <a name="cach-1"></a>Cách 1
-Nội dung cách 1...
-
-### <a name="cach-2"></a>Cách 2
-Nội dung cách 2...
-
-## <a name="dong-gop"></a>Đóng góp
-Nếu bạn muốn đóng góp vào dự án, hãy làm theo các bước sau. Bạn cũng có thể tạo các mục con như đã thực hiện trong các phần trước:
-
-### <a name="yeu-cau"></a>Yêu cầu
-Nội dung yêu cầu...
-
-### <a name="quy-trinh-dong-gop"></a>Quy trình đóng góp
-Nội dung quy trình đóng góp...
 
 # Problem: *Structure Padding*
 - Architecture of a computer processor is such a way that it can read 1 word from memory at a time.
