@@ -2,8 +2,11 @@
 
 
 ## Declare a *Struct* ?
-Refrence: https://www.programiz.com/c-programming/c-structures
-- The syntax is as follows
+**Refrence:** 
+- https://www.programiz.com/c-programming/c-structures
+- https://dev.to/its_srijan/structure-in-c-storage-pointers-functions-and-self-referential-structure-1gl3
+  
+**The syntax is as follows:**
 ~~~cpp
 union structureName {
    type1 variable1;
