@@ -1,4 +1,6 @@
 # Pointers to Data Structures
+**Reference:**
+- [Pointers to Data Structures](https://learningc.org/chapters/chapter12-data-structures/pointers-to-data-structure)
 ## Access members of data structures through pointers
 We can have pointers to declared variables of data structures. For example, in the following code, we define a data structure `struct Neuron`, and create an alias for it named `Neuron`.
 
