@@ -58,3 +58,4 @@ Address of data.f: 0x7fffa44ed0a0
 Address of data.d: 0x7fffa44ed0a0
 Address of data.str: 0x7fffa44ed0a0
 ~~~
+`Note`: Even though the largest member within the `union Data` is `char str[13]`, due to the `alignment requirement` of `double` being `8 bytes`, the `memory` allocated is rounded up to `16 bytes` for proper alignment."
