@@ -23,7 +23,7 @@ int main() {
     printf("Size of pointer struct: %ld bytes\n", sizeof(ptrSV));
 
     // In thông tin của sinh viên
-    printf("Thong tin sinh vien:\n");
+    printf("\nThong tin sinh vien:\n");
     printf("Ten: %s\n", ptrSV->ten);
     printf("Tuoi: %d\n", ptrSV->tuoi);
     printf("Diem trung binh: %.2f\n", ptrSV->diemTrungBinh);
