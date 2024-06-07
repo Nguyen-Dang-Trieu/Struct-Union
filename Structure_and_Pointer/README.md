@@ -55,7 +55,7 @@ pNeuron->input = 23.96
 
 
 
-# Exercise
+# Exercises
 **Output: Bai1.c**
 ~~~cpp
 Size of struct SinhVien: 28 bytes
