@@ -1,4 +1,0 @@
-Enter Name <First Middle Last>, EOF to quit: A B C
-Enter Street Address: 77 LeLoi Street
-Enter City State Zip: BinhDinh AnLacDong 16354
-
