@@ -1,7 +1,6 @@
 # Pointers to Structures
 
-#### Bai1.c
-**Output**:
+**Output: Bai1.c**
 ~~~cpp
 Size of struct SinhVien: 28 bytes
 Size of pointer struct: 8 bytes
