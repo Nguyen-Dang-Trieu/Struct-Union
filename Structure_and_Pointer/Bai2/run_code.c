@@ -1,13 +1,7 @@
 #include <stdio.h>
-
 #define FALSE 0
 #define TRUE  1
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- File: lbl.h
-    This file contains structure tags for labels. Label has two members, name and address
-    , each of which is a structure type.
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 struct name_recd {
     char last[15];
     char first[15];
@@ -24,9 +18,8 @@ struct addr_recd {
 struct label {
     struct name_recd name;
     struct addr_recd address;
-};  // <- Thêm dấu chấm phẩy ở đây
+};  
 
-// File: lblutil.h
 void printlabel(struct label * personptr);
 int readlabel(struct label * personptr);
 
@@ -39,7 +32,6 @@ int main(){
     printlabel(&person);
 }
 
-/* This routine prints the label data */
 void printlabel(struct label * pptr){
     printf("\n%s %s %s\n%s\n%s %s %ld\n",
             pptr->name.first,
@@ -48,10 +40,9 @@ void printlabel(struct label * pptr){
             pptr->address.street,
             pptr->address.city,
             pptr->address.state,
-            pptr->address.zip);  // <- Thêm dấu phẩy ở đây
+            pptr->address.zip);  
 }
 
-/* This routine reads the label data. */
 int readlabel(struct label * pptr){
     int x;
 
@@ -59,14 +50,14 @@ int readlabel(struct label * pptr){
     x = scanf("%s %s %s%*c",pptr->name.first,
                             pptr->name.middle,
                             pptr->name.last);
-    if(x == EOF)  // <- Sửa thành x == EOF
+    if(x == EOF) 
         return FALSE;
     printf("Enter Street Address: ");
-    fgets(pptr->address.street, sizeof(pptr->address.street), stdin);  // <- Sử dụng fgets thay cho gets
+    fgets(pptr->address.street, sizeof(pptr->address.street), stdin);  
     printf("Enter City State Zip: ");
     scanf("%s %s %ld%*c",pptr->address.city,
                          pptr->address.state,
-                         &pptr->address.zip);  // <- Sử dụng &pptr->address.zip
+                         &pptr->address.zip);  
     return TRUE;
 }
 
