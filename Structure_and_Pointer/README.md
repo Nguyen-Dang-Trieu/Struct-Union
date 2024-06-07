@@ -39,7 +39,10 @@ int main(void) {
 }
 ~~~
 <p align="center">
-    <img src="./Images/4.png" width="700px" alt="">
+    <img src="./Images/4_1.png" width="700px" alt="">
+</p>
+<p align="center">
+    <img src="./Images/4_2.png" width="700px" alt="">
 </p>
 
 **Output**:
