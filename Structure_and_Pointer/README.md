@@ -1,6 +1,6 @@
 # Pointers to Structures
 
-**Output: Bai1.c**
+**Output: Bai3.c**
 ~~~cpp
 Size of struct SinhVien: 28 bytes
 Size of pointer struct: 8 bytes
@@ -15,7 +15,7 @@ Diem trung binh: 8.50
 
 **Reference**: [Pointer to Struture](https://ee.hawaii.edu/~tep/EE160/Book/chap12/subsection2.1.1.4.html) 
 
-**File Directory Tree: Bai2** <br>
+**File Directory Tree: Bai4** <br>
 |-- lbl.h <br>
 |-- lblutil.h <br>
 |-- lbl.c <br>
