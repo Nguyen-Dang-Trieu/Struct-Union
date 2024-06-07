@@ -10,3 +10,27 @@ Ten: Nguyen Dang Trieu
 Tuoi: 23
 Diem trung binh: 8.50
 ~~~
+
+---
+
+**Reference**: [Pointer to Struture](https://ee.hawaii.edu/~tep/EE160/Book/chap12/subsection2.1.1.4.html) 
+
+**File Directory Tree: Bai2** <br>
+|-- lbl.h <br>
+|-- lblutil.h <br>
+|-- lbl.c <br>
+|-- lblutil.c <br>
+
+**Ouput: run_code.c**
+~~~cpp
+Enter Name <First Middle Last>, EOF to quit: A B C
+Enter Street Address: 77 LeLoi Street
+Enter City State Zip: BinhDinh AnLacDong 16354
+
+Label Data:
+
+A B C
+77 LeLoi Street
+
+BinhDinh AnLacDong 16354
+~~~
