@@ -84,7 +84,7 @@ int main()
 8
 ~~~
 <p align="center">
-    <img src="./Images/Vi_du_1.png" width="400px" alt="">
+    <img src="./Images/Vi_du_1.png" width="700px" alt="">
 </p>
 
 `Ví dụ 2:`
@@ -109,7 +109,7 @@ int main()
 12
 ~~~
 <p align="center">
-    <img src="./Images/Vi_du_2.png" width="500px" alt="">
+    <img src="./Images/Vi_du_2.png" width="700px" alt="">
 </p>
 
 # Union chỉ được sử dụng vùng nhớ lưu 1 giá trị  tại 1 thời điểm 
