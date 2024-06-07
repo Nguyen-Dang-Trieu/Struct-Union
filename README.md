@@ -116,7 +116,7 @@ int main()
 Ví dụ:
 Nếu ta khai báo 1 kiểu "union GPIO"
  ~~~cpp
-include<stdio.h>
+include <stdio.h>
 
 union GPIO {
   uint8_t INPUT;
