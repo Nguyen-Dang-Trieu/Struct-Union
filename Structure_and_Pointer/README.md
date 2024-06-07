@@ -6,7 +6,7 @@ Then, we declare a variable `neuron` of type `Neuron`, and a pointer `pNeuron` o
 
 **Code**
 <p align="center">
-    <img src="./Images/3.png" width="700px" alt="">
+    <img src="./Images/3.png" width="600px" alt="">
 </p>
 
 **Output**:
@@ -39,10 +39,10 @@ int main(void) {
 }
 ~~~
 <p align="center">
-    <img src="./Images/4_1.png" width="700px" alt="">
+    <img src="./Images/4_1.png" width="600px" alt="">
 </p>
 <p align="center">
-    <img src="./Images/4_2.png" width="700px" alt="">
+    <img src="./Images/4_2.png" width="600px" alt="">
 </p>
 
 **Output**:
