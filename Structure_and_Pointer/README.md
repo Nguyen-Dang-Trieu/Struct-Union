@@ -34,3 +34,14 @@ A B C
 
 BinhDinh AnLacDong 16354
 ~~~
+
+----
+**Ouput: Bai3.c**
+~~~cpp
+Real part: 5
+Imaginary part: 0.33
+~~~
+<p align="center">
+    <img src="./Images/Vi_du_2.png" width="700px" alt="">
+</p>
+
