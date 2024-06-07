@@ -1,5 +1,56 @@
-# Pointers to Structures
+# Pointers to Data Structures
+## Access members of data structures through pointers
+We can have pointers to declared variables of data structures. For example, in the following code, we define a data structure `struct Neuron`, and create an alias for it named `Neuron`.
 
+Then, we declare a variable `neuron` of type `Neuron`, and a pointer `pNeuron` of type `Neuron *`. The address of `neuron` is assigned to `pNeuron`. The following figure shows the code, the memory layout, and the output.
+
+**Code**
+<p align="center">
+    <img src="./Images/3.png" width="700px" alt="">
+</p>
+
+**Output**:
+~~~cpp
+neuron.input = 7.94
+(*pNeuron).input = 7.94
+~~~
+
+## Dynamic memory allocation of data structures
+We can also dynamically allocate memory for data structures. For example, we can allocate memory for a data structure `Neuron` using the `malloc` function. The following figure shows the code, the memory layout, and the output.
+~~~cpp
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Neuron {
+  int neuronNum;
+  double input;
+} Neuron;
+
+int main(void) {
+  Neuron *pNeuron;
+  pNeuron = (Neuron *)malloc(sizeof(Neuron));
+
+  pNeuron->input = 23.96;
+  printf("pNeuron->input = %.2lf\n", pNeuron->input);
+
+  free(pNeuron);
+  pNeuron = NULL;  // Avoid dangling pointer
+  return 0;
+}
+~~~
+<p align="center">
+    <img src="./Images/4.png" width="700px" alt="">
+</p>
+
+**Output**:
+~~~cpp
+pNeuron->input = 23.96 
+~~~
+
+
+
+
+# Exercise
 **Output: Bai1.c**
 ~~~cpp
 Size of struct SinhVien: 28 bytes
