@@ -42,6 +42,18 @@ Real part: 5
 Imaginary part: 0.33
 ~~~
 <p align="center">
-    <img src="./Images/Vi_du_2.png" width="700px" alt="">
+    <img src="./Images/1.png" width="700px" alt="">
+</p>
+
+----
+**Ouput: Bai4.c**
+~~~cpp
+Real part of  array element1 : 5
+Imaginary part of array element1 : 0.33
+Real part of  array element2 : 7
+Imaginary part of array element2 : 0.56
+~~~
+<p align="center">
+    <img src="./Images/2.png" width="700px" alt="">
 </p>
 
