@@ -55,7 +55,7 @@ int main()
 ~~~
 
 
-# Problem: *Structure Padding*
+## Problem: *Structure Padding*
 - Architecture of a computer processor is such a way that it can read 1 word from memory at a time.
 - 1 word is equal to 4 bytes for 32 bit processor and 8 bytes for 64 bit processor. So, 32 bit processor always reads 4 bytes at a time and 64 bit processor always reads 8 bytes at a time => *This concept is very useful to increase the processor speed.*
 
@@ -112,7 +112,57 @@ int main()
     <img src="./Images/Vi_du_2.png" width="700px" alt="">
 </p>
 
-# Union chỉ được sử dụng vùng nhớ lưu 1 giá trị  tại 1 thời điểm 
+## Cách để tránh Padding trong struct
+Sử dụng `__attribute__((packed))`.
+
+**Example:**
+~~~c
+#include <stdio.h>
+#include <stdint.h>
+
+struct MyStruct1 {
+    uint8_t a;    // 1 byte
+    uint16_t b;   // 2 bytes
+    uint32_t c;   // 4 bytes
+};
+
+struct MyStruct2 {
+    uint8_t a;    // 1 byte
+    uint16_t b;   // 2 bytes
+    uint32_t c;   // 4 bytes
+} __attribute__((packed));
+
+int main() {
+    struct MyStruct1 s1;
+    struct MyStruct2 s2;
+
+    printf("Size of MyStruct1 (without packed): %lu bytes\n", sizeof(struct MyStruct1));
+    printf("Address of s1.a: %p\n", (void*)&s1.a);
+    printf("Address of s1.b: %p\n", (void*)&s1.b);
+    printf("Address of s1.c: %p\n", (void*)&s1.c);
+
+    printf("\nSize of MyStruct2 (with packed): %lu bytes\n", sizeof(struct MyStruct2));
+    printf("Address of s2.a: %p\n", (void*)&s2.a);
+    printf("Address of s2.b: %p\n", (void*)&s2.b);
+    printf("Address of s2.c: %p\n", (void*)&s2.c);
+
+    return 0;
+}
+~~~
+**Output:**
+~~~
+Size of MyStruct1 (without packed): 8 bytes
+Address of s1.a: 0x7ffe2e705230
+Address of s1.b: 0x7ffe2e705232
+Address of s1.c: 0x7ffe2e705234
+
+Size of MyStruct2 (with packed): 7 bytes
+Address of s2.a: 0x7ffe2e705229
+Address of s2.b: 0x7ffe2e70522a
+Address of s2.c: 0x7ffe2e70522c
+~~~
+
+## Union chỉ được sử dụng vùng nhớ lưu 1 giá trị  tại 1 thời điểm 
 Ví dụ:
 Nếu ta khai báo 1 kiểu "union GPIO"
  ~~~cpp
