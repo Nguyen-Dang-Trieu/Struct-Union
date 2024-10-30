@@ -161,6 +161,8 @@ Address of s2.a: 0x7ffe2e705229
 Address of s2.b: 0x7ffe2e70522a
 Address of s2.c: 0x7ffe2e70522c
 ~~~
+## Phân tích asm cho việc sử dụng _attribute_((packed))
+https://fastbitlab.com/microcontroller-embedded-c-programming-lecture-150-assembly-code-analysis-of-packed-and-non-packed-structure/
 
 ## Union chỉ được sử dụng vùng nhớ lưu 1 giá trị  tại 1 thời điểm 
 Ví dụ:
