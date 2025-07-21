@@ -191,3 +191,41 @@ int main()
 }
 
 ~~~
+
+~~~c
+#include <stdio.h>
+#include <stdint.h>
+
+
+typedef union {
+  uint8_t byte;
+  
+  struct {
+    uint8_t bit_0: 1;
+    uint8_t bit_1: 1;
+    uint8_t bit_2: 1;
+    uint8_t bit_3: 1;
+    uint8_t bit_4: 1;
+    uint8_t bit_5: 1;
+    uint8_t bit_6: 1;
+    uint8_t bit_7: 1;
+  } bits;
+  
+} BYTE;
+
+
+int main()
+{
+    BYTE A;
+    A.byte = 0b00000011; // byte = 0000 0011 => 3
+    printf("\n%d", A.byte);
+    
+    // Thay đổi byte = 0000 1001 => 9
+    A.bits.bit_1 = 0;
+    A.bits.bit_3 = 1;
+    printf("\n%d", A.byte);
+
+}
+~~~
+
+Thay vì dùng những phép toán thao tác bit để set/reset bit trong 1 byte thì bằng cách dùng union và struct như này thì ta cũng có thể thao tác trực tiếp từng bit trong byte
